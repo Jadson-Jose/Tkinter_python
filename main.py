@@ -22,8 +22,10 @@ root.geometry("%dx%d+%d+%d" % (largura, altura, posx, posy))
 label_1 = Label(root, 
                 text="Este é o label um\n Frase dois",
                 font="Arial 20",
-                borderwidth=5,
-                relief="raised").pack()
+                borderwidth=25,
+                height=4,
+                relief="raised",
+                anchor="nw").pack()
 
 
 
