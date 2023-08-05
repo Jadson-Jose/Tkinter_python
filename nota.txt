@@ -1,0 +1,3 @@
+Versao do python tem que ser a 
+
+3.9.13('base':conda)

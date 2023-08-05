@@ -1,4 +1,7 @@
-from tkinter import *
+from website import create_app
 
-janela = Tk()
-janela.mainloop()
+
+app = create_app()
+
+if __name__ == '__main__':
+    app.run(debug=True)
